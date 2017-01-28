@@ -28,12 +28,10 @@ namespace time_is_ticking_out
 
         private static void DisplaySecondsLeft(ulong secondsLeft)
         {
+            var daysLeft = (int)TimeSpan.FromSeconds(secondsLeft).TotalDays;
+            var str = "\n You have " + secondsLeft + " seconds left, or about " + daysLeft + " days";
             Console.Clear();
-            Console.WriteLine("\n\n   You have {0} seconds left.", secondsLeft);
-            Console.Read();
-
-            // Two reads so that the app is not closed accidentally.
-            Console.Read();
+            Console.WriteLine(str);
         }
 
 
