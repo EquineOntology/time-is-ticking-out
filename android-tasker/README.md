@@ -3,7 +3,7 @@ Tasker ([Website](https://tasker.dinglisch.net/index.html)|[App](https://play.go
 ### Installation instructions
 To set up Time Is Ticking Out on your Android phone:
 
-1. Download [time-is-ticking-out.js](https://github.com/HHErebus/time-is-ticking-out/blob/develop/android-tasker/time-is-ticking-out.js) to the Tasker folder in your phone[^1]
+1. Download [time-is-ticking-out.js](https://github.com/HHErebus/time-is-ticking-out/blob/develop/android-tasker/time-is-ticking-out.js) to the Tasker folder in your phone<sup>1</sup>
 
 2. Download [time-is-ticking-out.xml](https://github.com/HHErebus/time-is-ticking-out/blob/develop/android-tasker/time-is-ticking-out.xml) to wherever you want
 
@@ -17,4 +17,6 @@ And that's it! You can run it to see the notification pop up, and get rid of the
 
 Cheers!
 
-[^1]: it might also work if you have Tasker installed in the SD card and download the file in the Tasker folder _there_, but it's untested.
+---
+
+<sup>1</sup>: it might also work if you have Tasker installed in the SD card and download the file in the Tasker folder _there_, but it's untested.
