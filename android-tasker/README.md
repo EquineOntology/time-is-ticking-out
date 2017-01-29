@@ -1,15 +1,15 @@
-Tasker ([Website](https://tasker.dinglisch.net/index.html)|[App](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en)) is an automation app for Android. In the heap of stuff it can do are included notifications, which are an awesome way to display how long you still have to live.
+**Tasker** ([Website](https://tasker.dinglisch.net/index.html)|[App](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en)) is an automation app for Android. In the heap of stuff it can do are included notifications, which are an awesome way to display how long you still have to live.
 
-### Installation instructions
+#### Installation instructions
 To set up Time Is Ticking Out on your Android phone:
 
 1. Download [time-is-ticking-out.js](https://github.com/HHErebus/time-is-ticking-out/blob/develop/android-tasker/time-is-ticking-out.js) to the Tasker folder in your phone<sup>1</sup>
 
-2. Download [time-is-ticking-out.xml](https://github.com/HHErebus/time-is-ticking-out/blob/develop/android-tasker/time-is-ticking-out.xml) to wherever you want
+2. Download [time-is-ticking-out.prf.xml](https://github.com/HHErebus/time-is-ticking-out/blob/develop/android-tasker/time-is-ticking-out.prf.xml) to wherever you want
 
-3. Import the profile (`time-is-ticking-out.xml`), which you can do following [this guide](https://almost-a-technocrat.blogspot.com.es/2013/04/how-to-import-tasker-projects-profiles.html)
+3. Import the profile (`time-is-ticking-out.prf.xml`), which you can do following [this guide](https://almost-a-technocrat.blogspot.com.es/2013/04/how-to-import-tasker-projects-profiles.html) (remember you're importing a _profile_!)
 
-4. In Tasker, change Actions 2 and 3 to whatever you wish, provided that
+4. In Tasker, change Actions 2 and 3 in the "Time to Death" task to whatever you wish, provided that
     * Action 2, `VARIABLE SET %DATE_OF_BIRTH`, is `YYYY-MM-DD`, and
     * Action 3, `VARIABLE SET %LIFE_EXPECTANCY`, is a number.
 
